@@ -12,7 +12,7 @@ namespace _4.LongestSubsequence
     using System;
     using System.Collections.Generic;
 
-    class Program
+    class LongestSubsequence
     {
         static void Main(string[] args)
         {
