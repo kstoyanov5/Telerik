@@ -15,6 +15,22 @@ namespace _3.SortSequence
     {
         static void Main(string[] args)
         {
+            List<int> sortSequence = new List<int>();
+
+            while (true)
+            {
+                string input = Console.ReadLine();
+                if (input == "") break;
+
+                int number = int.Parse(input);
+                sortSequence.Add(number);
+            }
+            sortSequence.Sort();
+
+            foreach (var item in sortSequence)
+            {
+                Console.Write(item + " ");
+            }
         }
     }
 }
