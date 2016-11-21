@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Stack", "2.Stack\2.Stack.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.SortSequence", "3.SortSequence\3.SortSequence.csproj", "{8ED72C17-B40E-4BBD-8760-554FC2C5AFA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.LongestSubsequence", "4.LongestSubsequence\4.LongestSubsequence.csproj", "{6A91516F-C2D9-49EE-95AE-0B521EB580FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8ED72C17-B40E-4BBD-8760-554FC2C5AFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ED72C17-B40E-4BBD-8760-554FC2C5AFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ED72C17-B40E-4BBD-8760-554FC2C5AFA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A91516F-C2D9-49EE-95AE-0B521EB580FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A91516F-C2D9-49EE-95AE-0B521EB580FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A91516F-C2D9-49EE-95AE-0B521EB580FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A91516F-C2D9-49EE-95AE-0B521EB580FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
