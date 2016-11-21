@@ -1,0 +1,33 @@
+body {
+    background-color:   #333333;
+}
+
+dt {
+    color: white;
+    font-style: italic;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-brown {
+    color: brown;
+}
+
+.img {
+    width: 12px;
+    height: 12px;
+}

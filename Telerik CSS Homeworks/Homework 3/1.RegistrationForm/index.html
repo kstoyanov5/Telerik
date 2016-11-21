@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Registration form</title>
+    </head>
+    <body>
+        <form name="RegistrationForm" action="/" method="POST">
+            <div class="form-group" text-left></div>
+            <table border="1" cellpadding="4" cellspacing="0" border="1" width="400px">
+                <tr>
+                    <td align="right"><strong>Last Name</strong></td>
+                    <td><input type="text" size="30" name="Last Name" value="Nakov"></td>
+                </tr>
+                <tr>
+                    <td align="right"><strong>First Name</strong></td>
+                    <td><input type="text" size="30" name="First Name" value="Svetlin"></td>
+                </tr>
+                <tr>
+                    <td align="right"><strong>Address</strong></td>
+                    <td><textarea rows="4" cols="30" name="Address">17 Hristo Botev Str.&#10;floor 3, apt. 12</textarea></td>
+                </tr>
+                <tr>
+                    <td align="right"><strong>City</strong></td>
+                    <td>
+                        <input type="text" size="18" name="City" value="Kaspichan">
+                        <strong>State</strong>
+                        <input type="text" size="1" name="State" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><strong>Zip/Postal Code</strong></td>
+                    <td>
+                        <input type="text" size="10" name="Zip" value="9325">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><strong>Country</strong></td>
+                    <td>
+                        <select>
+                            <option>Bulgaria</option>
+                            <option>Kaspichan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><strong>Phone (country code, area code,number)</strong></td>
+                    <td><input type="text" size="30" name="phone" value="(+359) 88 - 8334343"></td>
+                </tr>
+                <tr>
+                    <td align="right"><strong>Email</strong></td>
+                    <td><input type="text" size="30" name="Email" value="nakov@kaspichan.org"></td>
+                </tr>
+                <tr>
+                    <td align="right"><strong>Birth date</strong></td>
+                    <td><input type="text" size="30" name="birth" value="Month 06 Day 14 Year(4 digit) 1980"></td>
+                </tr>
+                <tr>
+                    <td align="right"><strong>Gender</strong></td>
+                    <td>
+                        <select name="gender">
+                            <option value="value 1">Male</option>
+                            <option value="value 2">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><strong>Starting date</strong></td>
+                    <td>
+                        <input type="radio" name="date"/>Spring 2006
+                        <input type="radio" name="date"/>Summer 2006
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><strong>Comments/Questions</strong></td>
+                    <td><textarea rows="4" cols="30" name="Address">Please send me mor information&#10;about the lodging.</textarea></td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2" style="background-color: #8FBC8F">
+                        <button>Submit</button>
+                        <input type="reset" name="Reset" value="Clear This Form">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
