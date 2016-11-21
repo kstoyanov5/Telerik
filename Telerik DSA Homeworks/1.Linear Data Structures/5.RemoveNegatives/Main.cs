@@ -13,6 +13,14 @@ namespace _5.RemoveNegatives
     {
         static void Main(string[] args)
         {
+            List<int> list = new List<int>(new int[] { -1, 5, 2, 3, 4 - 8, -7, 5, 5 });
+
+            list.RemoveAll(i => i < 0);
+
+            foreach (var item in list)
+            {
+                Console.Write(item + " ");
+            }
         }
     }
 }
