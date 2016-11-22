@@ -19,6 +19,14 @@ namespace _7.OccuringTimes
     {
         static void Main(string[] args)
         {
+            List<int> list = new List<int>(new int[] { 4, 2, 2, 5, 2, 3, 2, 3, 1, 5, 2 });
+
+            var groups = list.GroupBy(v => v);
+
+            foreach (var group in groups)
+            {
+                Console.WriteLine("{0} -> {1} times", group.Key, group.Count());
+            }
         }
     }
 }
