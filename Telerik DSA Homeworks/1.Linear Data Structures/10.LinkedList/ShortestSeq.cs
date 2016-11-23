@@ -20,7 +20,7 @@ namespace _10.LinkedList
     using System;
     using System.Collections.Generic;
 
-    class LinkedList
+    class ShortestSeq
     {
         // I used Stack instead of Queue because my loop is decreasing and adds elements backwards.
         // so when i print the numbers they come in the right order.
