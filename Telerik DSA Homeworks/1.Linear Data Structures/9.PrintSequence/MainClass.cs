@@ -29,11 +29,11 @@ namespace _9.PrintSequence
             Queue<int> queueInts = new Queue<int>();
             queueInts.Enqueue(2);
 
-            for (int i = 0; i < 50; i++)
+            for (int i = 1; i <= 50; i++)
             {
                 int S = queueInts.Dequeue();
-
                 seq.Add(S);
+
                 queueInts.Enqueue(S + 1);
                 queueInts.Enqueue(2 * S + 1);
                 queueInts.Enqueue(S + 2);
