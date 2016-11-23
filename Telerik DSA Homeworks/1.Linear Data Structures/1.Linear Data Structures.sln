@@ -23,8 +23,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.PrintSequence", "9.PrintS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise10.ShortestSeq", "10.LinkedList\Exercise10.ShortestSeq.csproj", "{7A358B29-5091-4E95-942D-BDF44B47BB52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise11.LinkedList", "Exercise11.LinkedList\Exercise11.LinkedList.csproj", "{6CC97695-541A-42FF-A199-5873BABFAF60}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,10 +69,6 @@ Global
 		{7A358B29-5091-4E95-942D-BDF44B47BB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A358B29-5091-4E95-942D-BDF44B47BB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A358B29-5091-4E95-942D-BDF44B47BB52}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6CC97695-541A-42FF-A199-5873BABFAF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CC97695-541A-42FF-A199-5873BABFAF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CC97695-541A-42FF-A199-5873BABFAF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CC97695-541A-42FF-A199-5873BABFAF60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
