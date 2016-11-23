@@ -19,12 +19,30 @@ namespace _9.PrintSequence
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
 
     class MainClass
     {
         static void Main(string[] args)
         {
+            List<int> seq = new List<int>();
+
+            Queue<int> queueInts = new Queue<int>();
+            queueInts.Enqueue(2);
+
+            for (int i = 0; i < 50; i++)
+            {
+                int S = queueInts.Dequeue();
+
+                seq.Add(S);
+                queueInts.Enqueue(S + 1);
+                queueInts.Enqueue(2 * S + 1);
+                queueInts.Enqueue(S + 2);
+            }
+
+            foreach (var item in seq)
+            {
+                Console.Write(item + " ");
+            }
         }
     }
 }
