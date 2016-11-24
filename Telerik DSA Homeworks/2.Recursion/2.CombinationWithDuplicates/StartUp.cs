@@ -12,7 +12,7 @@ namespace _2.CombinationWithDuplicates
 
     class StartUp
     {
-        static int N = 4;
+        static int N = 3;
         static int K = 2;
         static int[] loops;
 
@@ -20,10 +20,10 @@ namespace _2.CombinationWithDuplicates
         {
             loops = new int[N];
 
-            recursiveLoop(0);
+            recursiveLoop(0, 0);
         }
 
-        static void recursiveLoop(int index)
+        static void recursiveLoop(int counter, int index)
         {
             if (index >= K)
             {
@@ -31,10 +31,10 @@ namespace _2.CombinationWithDuplicates
                 return;
             }
 
-            for (int i = 0; i < N; i++)
+            for (int i = counter; i < N; i++)
             {
                 loops[index] = i;
-                recursiveLoop(i);
+                recursiveLoop(i, index + 1);
             }
         }
 

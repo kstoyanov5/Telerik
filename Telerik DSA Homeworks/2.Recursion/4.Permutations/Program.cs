@@ -8,8 +8,6 @@ namespace _4.Permutations
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-        }
+
     }
 }
