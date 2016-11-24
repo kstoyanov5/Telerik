@@ -1,5 +1,5 @@
 ﻿/*
- * Write a recursive program that simulates the execution of n nested loopsfrom 1 to n.
+ * Write a recursive program that simulates the execution of n nested loops from 1 to n.
  * 
  * Examples:
  *          1 1
@@ -17,30 +17,46 @@
  *          3 3 2
  *          3 3 3
  * 
- * 
- **/
+ * https://github.com/TelerikAcademy/Data-Structures-and-Algorithms/tree/master/Topics/03.%20Recursion/homework
+ */
 namespace _1.NestedLoopsRecursion
 {
     using System;
-    using System.Collections.Generic;
 
     class StartUp
     {
+        // Set N here
+        static int n = 3;
+
+        static int[] loops;
+
         static void Main(string[] args)
         {
-            int n = 3;
-
-            recursiveLoop(n);
+            loops = new int[n];
+            recursiveLoop(0);
         }
 
-        static void recursiveLoop(int n)
+        static void recursiveLoop(int currentLoop)
         {
-            if (n == 0)
+            if (currentLoop == n)
             {
+                Print();
                 return;
             }
-            Console.WriteLine(n);
-            recursiveLoop(n - 1);
+            for (int counter = 1; counter <= n; counter++)
+            {
+                loops[currentLoop] = counter;
+                recursiveLoop(currentLoop + 1);
+            }
+        }
+
+        static void Print()
+        {
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("{0} ", loops[i]);
+            }
+            Console.WriteLine();
         }
     }
 }
