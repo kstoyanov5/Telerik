@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9516C73C-FE80-4729-BABF-DF83D07641B9}</ProjectGuid>
+    <ProjectGuid>{531F25E5-6FB5-4F2A-BEAD-01FABABCC768}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_2.CombinationWithDuplicates</RootNamespace>
-    <AssemblyName>2.CombinationWithDuplicates</AssemblyName>
+    <RootNamespace>_3.CombinationWithoutDuplicates</RootNamespace>
+    <AssemblyName>3.CombinationWithoutDuplicates</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StartUp.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
