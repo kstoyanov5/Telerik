@@ -1,12 +1,11 @@
 ﻿/*
- * Write a recursive program for generating and printing all the combinations with 
- * duplicates of k elements from n-element set.
- * 
- * Example: n = 3, k = 2 -> (1 1), (1 2), (1 3), (2 2), (2 3), (3 3)
+ * Modify the previous program to skip duplicates:
+ * n=4, k=2 → (1 2), (1 3), (1 4), (2 3), (2 4), (3 4)
  * 
  * https://github.com/TelerikAcademy/Data-Structures-and-Algorithms/tree/master/Topics/03.%20Recursion/homework
  */
-namespace _2.CombinationWithDuplicates
+
+namespace _3.CombinationWithoutDuplicates
 {
     using System;
 
@@ -20,10 +19,10 @@ namespace _2.CombinationWithDuplicates
         {
             loops = new int[N];
 
-            recursiveLoop(0);
+            recursiveLoop(0, 0);
         }
 
-        static void recursiveLoop(int index)
+        static void recursiveLoop(int counter, int index)
         {
             if (index >= K)
             {
@@ -31,10 +30,10 @@ namespace _2.CombinationWithDuplicates
                 return;
             }
 
-            for (int i = 0; i < N; i++)
+            for (int i = counter; i < N; i++)
             {
                 loops[index] = i;
-                recursiveLoop(i);
+                recursiveLoop(i + 1, index + 1);
             }
         }
 
@@ -49,3 +48,4 @@ namespace _2.CombinationWithDuplicates
         }
     }
 }
+
