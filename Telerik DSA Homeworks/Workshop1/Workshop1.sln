@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Patterns", "1.Patterns\1.Patterns.csproj", "{05B37463-C3F5-4A36-B644-6BE404F0EEF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.ReversePolishNotation", "2.ReversePolishNotation\2.ReversePolishNotation.csproj", "{260D382A-C048-46E4-9039-8E2E0B6BA5C1}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05B37463-C3F5-4A36-B644-6BE404F0EEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B37463-C3F5-4A36-B644-6BE404F0EEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B37463-C3F5-4A36-B644-6BE404F0EEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B37463-C3F5-4A36-B644-6BE404F0EEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260D382A-C048-46E4-9039-8E2E0B6BA5C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260D382A-C048-46E4-9039-8E2E0B6BA5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260D382A-C048-46E4-9039-8E2E0B6BA5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260D382A-C048-46E4-9039-8E2E0B6BA5C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
