@@ -10,6 +10,10 @@ namespace _1.Zerg___
     {
         static void Main(string[] args)
         {
+
+            var input = Console.ReadLine();
+
+            var numericSystem = 15;
         }
     }
 }
