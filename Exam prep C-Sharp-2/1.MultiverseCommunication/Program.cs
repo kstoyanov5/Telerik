@@ -10,9 +10,19 @@ namespace _1.MultiverseCommunication
     {
         static void Main(string[] args)
         {
-            string input = Console.ReadLine();
+            var digits = new List<string> { "CHU", "TEL", "OFT", "IVA", "EMY", "VNB", "POQ", "ERI", "CAD", "K-A", "IIA", "YLO", "PLA" };
+            var input = Console.ReadLine();
+            long decimalRepresentation = 0;
 
-            var digits = new[] { "CHU", "TEL", "OFT", "IVA", "EMY", "VNB", "POQ", "ERI", "CAD", "K-A", "IIA", "YLO", "PLA" };
+            for (int i = 0; i < input.Length; i+=3)
+            {
+                var digitIn13 = input.Substring(i, 3);
+                var decimalValue = digits.IndexOf(digitIn13);
+
+                decimalRepresentation *= 13;
+                decimalRepresentation += decimalValue;
+            }
+            Console.WriteLine(decimalRepresentation);
         }
     }
 }

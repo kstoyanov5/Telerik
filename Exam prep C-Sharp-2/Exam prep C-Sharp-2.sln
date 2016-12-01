@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Tres64", "1.Tres64\1.Tres
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.StrangelandNumbers", "1.StrangelandNumbers\1.StrangelandNumbers.csproj", "{3C56F276-F158-4F0A-9A23-D43394749EE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.MultiverseCommunication", "1.MultiverseCommunication\1.MultiverseCommunication.csproj", "{3D05435C-3C31-4D2B-BEC8-EC27183D3350}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3C56F276-F158-4F0A-9A23-D43394749EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C56F276-F158-4F0A-9A23-D43394749EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C56F276-F158-4F0A-9A23-D43394749EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D05435C-3C31-4D2B-BEC8-EC27183D3350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D05435C-3C31-4D2B-BEC8-EC27183D3350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D05435C-3C31-4D2B-BEC8-EC27183D3350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D05435C-3C31-4D2B-BEC8-EC27183D3350}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
