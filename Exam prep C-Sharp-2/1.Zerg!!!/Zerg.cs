@@ -27,21 +27,21 @@ namespace _1.Zerg___
         {
             switch (currentDigit)
             {
-                case "Rawr": return 0; break;
-                case "Rrrr": return 1; break;
-                case "Hsst": return 2; break;
-                case "Ssst": return 3; break;
-                case "Grrr": return 4; break;
-                case "Rarr": return 5; break;
-                case "Mrrr": return 6; break;
-                case "Psst": return 7; break;
-                case "Uaah": return 8; break;
-                case "Uaha": return 9; break;
-                case "Zzzz": return 10; break;
-                case "Bauu": return 11; break;
-                case "Djav": return 12; break;
-                case "Myau": return 13; break;
-                case "Gruh": return 14; break;
+                case "Rawr": return 0; 
+                case "Rrrr": return 1; 
+                case "Hsst": return 2; 
+                case "Ssst": return 3; 
+                case "Grrr": return 4; 
+                case "Rarr": return 5; 
+                case "Mrrr": return 6; 
+                case "Psst": return 7; 
+                case "Uaah": return 8; 
+                case "Uaha": return 9; 
+                case "Zzzz": return 10;
+                case "Bauu": return 11;
+                case "Djav": return 12;
+                case "Myau": return 13;
+                case "Gruh": return 14;  
                 default: throw new ArgumentException();
             }
         }
