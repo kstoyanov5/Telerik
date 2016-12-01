@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace _1.MultiverseCommunication_SecondStyle
 {
-    class Program
+    class MultiverseSecond
     {
         static BigInteger Pow(int number, int power)
         {

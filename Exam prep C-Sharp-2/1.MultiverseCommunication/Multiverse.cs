@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace _1.MultiverseCommunication
 {
-    class Program
+    class Multiverse
     {
         static void Main(string[] args)
         {

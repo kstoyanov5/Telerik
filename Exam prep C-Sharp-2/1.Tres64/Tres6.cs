@@ -3,7 +3,7 @@ using System.Text;
 
 namespace _1.Tres64
 {
-    class Program
+    class Tres6
     {
         static void Main(string[] args)
         {

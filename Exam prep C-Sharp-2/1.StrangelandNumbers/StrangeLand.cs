@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace _1.StrangelandNumbers
 {
-    class Program
+    class StrangeLand
     {
         static BigInteger Pow(int number, int power)
         {
