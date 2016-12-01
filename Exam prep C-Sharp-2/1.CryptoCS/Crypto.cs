@@ -13,7 +13,7 @@ namespace _1.CryptoCS
             string thirdLine = Console.ReadLine();
 
             ulong numeralSystem = 26;
-            ulong numeralSystem2 = 7;
+            int numeralSystem2 = 7;
 
             var digits = new List<string> { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" };
 
@@ -42,7 +42,7 @@ namespace _1.CryptoCS
             }
         }
 
-        static BigInteger Pow(BigInteger number, int power)
+        static BigInteger Pow(int number, int power)
         {
             BigInteger result = 1;
             for (int i = 0; i < power; i++)
@@ -68,7 +68,7 @@ namespace _1.CryptoCS
             Console.WriteLine();
         }
 
-        static BigInteger ConvertToDecimal(string number, ulong baseFrom)
+        static BigInteger ConvertToDecimal(string number, int baseFrom)
         {
             BigInteger decimalNumber = 0;
             for (int i = 0; i < number.Length; i++)

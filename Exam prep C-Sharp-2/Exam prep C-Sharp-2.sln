@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Zerg!!!", "1.Zerg!!!\1.Ze
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.CryptoCS", "1.CryptoCS\1.CryptoCS.csproj", "{67AED959-D07C-43F6-9283-3155DCEB259F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.DeCatCoding", "1.DeCatCoding\1.DeCatCoding.csproj", "{7F947F2C-D8E2-4E53-B38A-FB790AECBC39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{67AED959-D07C-43F6-9283-3155DCEB259F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67AED959-D07C-43F6-9283-3155DCEB259F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67AED959-D07C-43F6-9283-3155DCEB259F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F947F2C-D8E2-4E53-B38A-FB790AECBC39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F947F2C-D8E2-4E53-B38A-FB790AECBC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F947F2C-D8E2-4E53-B38A-FB790AECBC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F947F2C-D8E2-4E53-B38A-FB790AECBC39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
