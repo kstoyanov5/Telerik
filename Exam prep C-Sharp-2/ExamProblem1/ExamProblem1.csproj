@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1A4C2993-84EE-4F02-BED3-D058AF7D6E5C}</ProjectGuid>
+    <ProjectGuid>{04BC7493-F1EF-4A82-BE0A-25E2F119F7D3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_1.CalculationProblem</RootNamespace>
-    <AssemblyName>1.CalculationProblem</AssemblyName>
+    <RootNamespace>ExamProblem1</RootNamespace>
+    <AssemblyName>ExamProblem1</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculationProblem.cs" />
+    <Compile Include="Problem1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
