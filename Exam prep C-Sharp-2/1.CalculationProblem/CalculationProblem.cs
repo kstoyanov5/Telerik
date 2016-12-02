@@ -15,6 +15,7 @@ namespace _1.CalculationProblem
             string input = Console.ReadLine();
 
             string[] splits = input.Split(' ');
+
             StringBuilder builder = new StringBuilder();
             List<BigInteger> final = new List<BigInteger>();
 
@@ -93,6 +94,17 @@ namespace _1.CalculationProblem
                 result.Reverse();
                 foreach (int item in result)
                 {
+                    /* Uncomment for Hexadecimal */
+                   //switch (item)
+                   //{
+                   //    case 10: Console.Write('A'); break;
+                   //    case 11: Console.Write('B'); break;
+                   //    case 12: Console.Write('C'); break;
+                   //    case 13: Console.Write('D'); break;
+                   //    case 14: Console.Write('E'); break;
+                   //    case 15: Console.Write('F'); break;
+                   //    default: Console.Write(item); break;
+                   //}
                     //Console.Write(digits[item]);
                     builder.Append(digits[item]);
                 }
