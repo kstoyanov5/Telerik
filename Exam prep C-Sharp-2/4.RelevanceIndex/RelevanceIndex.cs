@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Numerics;
 using System.Text;
 
-namespace ExamProblem3
+namespace _4.RelevanceIndex
 {
-    class Problem3
+    class RelevanceIndex
     {
         static void Main(string[] args)
         {

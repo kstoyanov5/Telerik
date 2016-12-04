@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace _4.VariableLengthCoding
 {
@@ -20,11 +18,13 @@ namespace _4.VariableLengthCoding
                 numbers.Add(int.Parse(str));
             }
 
+            // Padleft used if a number has less than 8 symbols (requirement by a condition)
             foreach (var number in numbers)
             {
                 encodedString.Append(Convert.ToString(number, 2).PadLeft(8, '0'));
             }
 
+            // Maps every input line to corresponding index and char representing it.
             var numberOfLines = int.Parse(Console.ReadLine());
             char[] dictionary = new char[numberOfLines + 1];
 
