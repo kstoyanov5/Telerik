@@ -7,7 +7,6 @@ namespace _3.Patterns
     {
         static void Main(string[] args)
         {
-
             var matrix = Input();
 
             var pattern = new bool[,]
