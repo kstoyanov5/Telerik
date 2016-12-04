@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.MagicWords", "2.MagicWord
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Kitty", "2.Kitty\2.Kitty.csproj", "{0BC2DB2C-1EF7-4B79-8DBE-BA4C57EF7EB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.BunnyFactory", "2.BunnyFactory\2.BunnyFactory.csproj", "{9158C65A-22EA-4738-A5AF-D9062E663BB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamProblem2", "ExamProblem2\ExamProblem2.csproj", "{593A4C09-EE8F-466D-B8E8-6B6559FB29E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{0BC2DB2C-1EF7-4B79-8DBE-BA4C57EF7EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BC2DB2C-1EF7-4B79-8DBE-BA4C57EF7EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BC2DB2C-1EF7-4B79-8DBE-BA4C57EF7EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9158C65A-22EA-4738-A5AF-D9062E663BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9158C65A-22EA-4738-A5AF-D9062E663BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9158C65A-22EA-4738-A5AF-D9062E663BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9158C65A-22EA-4738-A5AF-D9062E663BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593A4C09-EE8F-466D-B8E8-6B6559FB29E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593A4C09-EE8F-466D-B8E8-6B6559FB29E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593A4C09-EE8F-466D-B8E8-6B6559FB29E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593A4C09-EE8F-466D-B8E8-6B6559FB29E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
