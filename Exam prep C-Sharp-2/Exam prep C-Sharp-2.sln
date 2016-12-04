@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.BunnyFactory", "2.BunnyFa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamProblem2", "ExamProblem2\ExamProblem2.csproj", "{593A4C09-EE8F-466D-B8E8-6B6559FB29E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.VariableLengthCoding", "4.VariableLengthCoding\4.VariableLengthCoding.csproj", "{9840256F-75F6-4737-BB65-5B917D818926}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{593A4C09-EE8F-466D-B8E8-6B6559FB29E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{593A4C09-EE8F-466D-B8E8-6B6559FB29E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{593A4C09-EE8F-466D-B8E8-6B6559FB29E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9840256F-75F6-4737-BB65-5B917D818926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9840256F-75F6-4737-BB65-5B917D818926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9840256F-75F6-4737-BB65-5B917D818926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9840256F-75F6-4737-BB65-5B917D818926}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

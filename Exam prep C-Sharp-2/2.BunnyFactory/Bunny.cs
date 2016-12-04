@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _2.BunnyFactory
 {
@@ -29,6 +26,7 @@ namespace _2.BunnyFactory
 
                 var sum = SumListValuesInRange(cages, stepNumber, cagesCount + stepNumber - 1);
                 var product = ProductListValuesInRange(cages, stepNumber, cagesCount + stepNumber - 1);
+                // Makes new cages in String format.
                 string result = sum.ToString() + product.ToString();
 
                 for (int i = cagesCount + stepNumber; i < cages.Count; i++)
