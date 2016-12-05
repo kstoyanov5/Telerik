@@ -2,7 +2,7 @@
 
 namespace _5.BobbyAvokadoto
 {
-    class Program
+    class BobbyAvokadoto
     {
         static void Main(string[] args)
         {

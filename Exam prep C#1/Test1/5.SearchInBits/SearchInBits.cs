@@ -2,7 +2,7 @@
 
 namespace _5.SearchInBits
 {
-    class Program
+    class SearchInBits
     {
         static void Main(string[] args)
         {

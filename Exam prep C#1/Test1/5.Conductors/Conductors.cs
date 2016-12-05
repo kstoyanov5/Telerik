@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace _5.Conductors
 {
-    class Program
+    class Conductors
     {
         static void Main(string[] args)
         {

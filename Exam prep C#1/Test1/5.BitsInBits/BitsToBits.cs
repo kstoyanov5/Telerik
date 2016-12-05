@@ -2,7 +2,7 @@
 
 namespace _5.BitsInBits
 {
-    class Program
+    class BitsToBits
     {
         static void Main(string[] args)
         {
