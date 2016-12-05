@@ -39,9 +39,6 @@
 
                 for (int j = 1; j < repeats; j++)
                 {
-                    //bool rowIsInField = (0 <= row + deltaRow) && (row + deltaRow < field.GetLength(0));
-                    //bool colIsInField = (0 <= row + deltaCol) && (row + deltaCol < field.GetLength(1));
-
                     if (IsInside(row + deltaRow, col + deltaCol, field))
                     {
                         row += deltaRow;
@@ -70,6 +67,5 @@
 
             return rowIsInField && colIsInField;
         }
-
     }
 }
