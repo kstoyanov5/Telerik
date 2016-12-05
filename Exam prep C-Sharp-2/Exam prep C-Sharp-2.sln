@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.LoverOfThree", "3.LoverOf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.BitShiftMatrix", "3.BitShiftMatrix\3.BitShiftMatrix.csproj", "{3154281F-55BF-4075-807F-1B3002946759}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.DecodeAndDecrypt", "4.DecodeAndDecrypt\4.DecodeAndDecrypt.csproj", "{2A829A0E-7C22-4219-B137-5B7053B8A98C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{3154281F-55BF-4075-807F-1B3002946759}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3154281F-55BF-4075-807F-1B3002946759}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3154281F-55BF-4075-807F-1B3002946759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A829A0E-7C22-4219-B137-5B7053B8A98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A829A0E-7C22-4219-B137-5B7053B8A98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A829A0E-7C22-4219-B137-5B7053B8A98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A829A0E-7C22-4219-B137-5B7053B8A98C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
