@@ -8,3 +8,127 @@ html, body {
     -webkit-text-stroke-width: 0;
     -webkit-font-smoothing: subpixel-antialiased;
 }
+
+#header {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+#shellHeader {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height: 100px;
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+    float: left;
+    background-image: url('images/logo.png');
+    height: 65px;
+    width: 170px
+}
+
+.separator {
+    height:45px;
+    width: 5px;
+    background: #333333;
+    border-bottom:1px solid #313030;
+    margin-left: 200px;
+}
+
+#headerTitle {
+    margin: 0;
+    padding: 0;
+    margin-left: 250px;
+    font-weight: bold;
+}
+
+#search {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    padding-left: 400px;
+    padding-top: 10px;
+    align-content: center;
+    background-color: #0078D7;
+}
+
+.searchInput {
+    height: 35px;
+    width: 400px;
+    align-self: center;
+}
+
+#main {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+#main h1{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: #333333;
+}
+
+#main h2{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: normal;
+    color: #333333;
+}
+
+#main p{
+    font-size: 16px;
+}
+
+#main hr {
+    height: 5px;
+    color: #333333;
+    background: #333333;
+}
+
+#footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    font-size: 14px;
+    background-color: #505050;
+    height: 60px;
+}
+
+#language {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #CCCCCC;
+}
+
+#copyright {
+    float: right;
+    font-weight: bold;
+    color: #CCCCCC;
+    margin-top: 20px;
+}
+
+#footerMenu {
+    float: right;
+    margin-top: 20px;
+}
+
+#footerMenu li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#footerMenu li a{
+    text-decoration: none;
+    color: #CCCCCC;
+}
