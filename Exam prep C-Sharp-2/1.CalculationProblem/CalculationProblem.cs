@@ -40,7 +40,8 @@ namespace _1.CalculationProblem
             {
                 total += item;
             }
-            Console.WriteLine("{0} = {1}", ConvertFromDecimal(total, 23), total);
+            //Console.WriteLine("{0} = {1}", ConvertFromDecimal(total, 23), total);
+            Console.WriteLine(ConvertToDecimal("260", 16));
         }
 
         static string ConvertToInt(string word)
