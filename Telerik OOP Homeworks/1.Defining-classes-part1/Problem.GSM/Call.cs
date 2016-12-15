@@ -71,5 +71,10 @@
                 duration = value;
             }
         }
+
+        public override string ToString()
+        {
+            return string.Format("Date: {0}, Time: {1}, Dialled number: {2}, Duration: {3}", Date, Time, DialledPhoneNum, Duration);
+        }
     }
 }

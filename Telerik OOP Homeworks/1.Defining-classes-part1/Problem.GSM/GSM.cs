@@ -154,23 +154,29 @@
 
         public void clearCallHistory()
         {
-            foreach (var call in PhoneCallHistory)
-            {
-                PhoneCallHistory.Remove(call);
-            }
+            PhoneCallHistory.RemoveRange(0, PhoneCallHistory.Count);
         }
 
-        public void calculateCallPrices(int pricePerMinute)
+        public float calculateCallPrices(float pricePerMinute)
         {
+            float totalPrice = 0;
             foreach (var call in PhoneCallHistory)
             {
-
+                totalPrice += pricePerMinute * call.Duration;
             }
+            return totalPrice;
         }
 
         public override string ToString()
         {
-            return string.Format("GSM Model: {0}, Manufacturer: {1}, Price: {2}, Owner Name: {3}, Battery type: {4}, Display {5}", Model, Manufacturer, Price, Owner, Battery.ToString(), Display.ToString());
+            if (Price == null)
+            {
+                return string.Format("GSM Model: {0}, Manufacturer: {1}", Model, Manufacturer);
+            }
+            else
+            {
+                return string.Format("GSM Model: {0}, Manufacturer: {1}, Price: {2}, Owner Name: {3}, Battery type: {4}, Display {5}", Model, Manufacturer, Price, Owner, Battery.ToString(), Display.ToString());
+            }
         }
     }
 }

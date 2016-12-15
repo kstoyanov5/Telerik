@@ -7,17 +7,16 @@ namespace Problem.GSM
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-
+       
     class GSMTest
     {
+        // VNIMANIE!! Proekta ima 2 Main class-a. Ako bugva natisnete Problem.GSM -> dqsno kop4e Properties -> StartUp object -> izberete Problem.GSMTest
         static void Main(string[] args)
         {            
             List<GSM> gsmHolder = new List<GSM>();
 
-            GSM samsungS4 = new GSM("s4", "samsung");
-            GSM samsungS3 = new GSM("s3", "samsung", "500 marki", "Kolio Mamata", new Battery(Battery.BatteryType.LiIon), new Display("500p", "200 hilqdi"));
+            GSM samsungS4 = new GSM("s6", "samsung");
+            GSM samsungS3 = new GSM("s4", "samsung", "500 marki", "Kolio Mamata", new Battery(Battery.BatteryType.LiIon), new Display("500p", "200 hilqdi"));
             gsmHolder.Add(samsungS4);
             gsmHolder.Add(samsungS3);
 
