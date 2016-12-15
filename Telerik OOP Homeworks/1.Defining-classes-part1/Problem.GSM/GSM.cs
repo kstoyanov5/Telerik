@@ -14,6 +14,8 @@
         private Battery battery;
         private Display display;
 
+        List<Call> phoneCallHistory = new List<Call>();
+
         private static GSM Iphone4S = new GSM("Iphone4S", "Apple", "450lv", "Pesho", new Battery(Battery.BatteryType.LiIon), new Display("480p", "10000000"));
 
         public GSM(string model, string manufacturer)
@@ -124,6 +126,37 @@
             set
             {
                 Iphone4S = value;
+            }
+        }
+
+        public List<Call> PhoneCallHistory
+        {
+            get
+            {
+                return phoneCallHistory;
+            }
+
+            set
+            {
+                phoneCallHistory = value;
+            }
+        }
+
+        public void addCall(Call call)
+        {
+            PhoneCallHistory.Add(call);
+        }
+
+        public void deleteCall(Call call)
+        {
+            PhoneCallHistory.Remove(call);
+        }
+
+        public void clearCallHistory()
+        {
+            foreach (var call in PhoneCallHistory)
+            {
+                PhoneCallHistory.Remove(call);
             }
         }
 
