@@ -1,0 +1,135 @@
+﻿namespace Problem.GSM
+{
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
+    public class GSM
+    {
+        private string model;
+        private string manufacturer;
+        private string price;
+        private string owner;
+        private Battery battery;
+        private Display display;
+
+        private static GSM Iphone4S = new GSM("Iphone4S", "Apple", "450lv", "Pesho", new Battery(Battery.BatteryType.LiIon), new Display("480p", "10000000"));
+
+        public GSM(string model, string manufacturer)
+        {
+            this.Model = model;
+            this.Manufacturer = manufacturer;
+            Price = null;
+            Owner = null;
+            Battery = null;
+            Display = null;
+        }
+
+        public GSM(string model, string manufacturer, string price, string owner, Battery battery, Display display)
+        {
+            this.Model = model;
+            this.Manufacturer = manufacturer;
+            this.Price = price;
+            this.Owner = owner;
+            this.Battery = battery;
+            this.Display = display;
+        }
+
+        public string Model
+        {
+            get
+            {
+                return model;
+            }
+
+            set
+            {
+                model = value;
+            }
+        }
+
+        public string Manufacturer
+        {
+            get
+            {
+                return manufacturer;
+            }
+
+            set
+            {
+                manufacturer = value;
+            }
+        }
+
+        public string Price
+        {
+            get
+            {
+                return price;
+            }
+
+            set
+            {
+                price = value;
+            }
+        }
+
+        public string Owner
+        {
+            get
+            {
+                return owner;
+            }
+
+            set
+            {
+                owner = value;
+            }
+        }
+
+        public Battery Battery
+        {
+            get
+            {
+                return battery;
+            }
+
+            set
+            {
+                battery = value;
+            }
+        }
+
+        public Display Display
+        {
+            get
+            {
+                return display;
+            }
+
+            set
+            {
+                display = value;
+            }
+        }
+
+        public static GSM Iphone4
+        {
+            get
+            {
+                return Iphone4S;
+            }
+
+            set
+            {
+                Iphone4S = value;
+            }
+        }
+
+        public override string ToString()
+        {
+            return string.Format("GSM Model: {0}, Manufacturer: {1}, Price: {2}, Owner Name: {3}, Battery type: {4}, Display {5}", Model, Manufacturer, Price, Owner, Battery.ToString(), Display.ToString());
+        }
+    }
+}
