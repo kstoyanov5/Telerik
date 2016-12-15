@@ -18,12 +18,12 @@
 
         public GSM(string model, string manufacturer)
         {
-            this.Model = model;
-            this.Manufacturer = manufacturer;
-            Price = null;
-            Owner = null;
-            Battery = null;
-            Display = null;
+            this.model = model;
+            this.manufacturer = manufacturer;
+            this.price = null;
+            this.owner = null;
+            this.battery = null;
+            this.display = null;
         }
 
         public GSM(string model, string manufacturer, string price, string owner, Battery battery, Display display)

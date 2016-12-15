@@ -16,9 +16,9 @@ namespace Problem.GSM
         {            
             List<GSM> gsmHolder = new List<GSM>();
 
-            //GSM samsungS4 = new GSM("s4", "samsung");
+            GSM samsungS4 = new GSM("s4", "samsung");
             GSM samsungS3 = new GSM("s3", "samsung", "500 marki", "Kolio Mamata", new Battery(Battery.BatteryType.LiIon), new Display("500p", "200 hilqdi"));
-            //gsmHolder.Add(samsungS4);
+            gsmHolder.Add(samsungS4);
             gsmHolder.Add(samsungS3);
 
             Console.WriteLine(GSM.Iphone4.ToString());
