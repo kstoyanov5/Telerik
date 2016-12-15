@@ -160,6 +160,14 @@
             }
         }
 
+        public void calculateCallPrices(int pricePerMinute)
+        {
+            foreach (var call in PhoneCallHistory)
+            {
+
+            }
+        }
+
         public override string ToString()
         {
             return string.Format("GSM Model: {0}, Manufacturer: {1}, Price: {2}, Owner Name: {3}, Battery type: {4}, Display {5}", Model, Manufacturer, Price, Owner, Battery.ToString(), Display.ToString());
