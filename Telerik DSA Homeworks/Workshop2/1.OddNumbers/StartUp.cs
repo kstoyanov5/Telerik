@@ -7,7 +7,6 @@
 namespace _1.OddNumbers
 {
     using System;
-    using System.Linq;
 
     class StartUp
     {
