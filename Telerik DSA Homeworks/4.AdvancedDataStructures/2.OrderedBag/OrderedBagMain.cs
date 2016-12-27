@@ -12,15 +12,14 @@
  */
 namespace _2.OrderedBag
 {
-    using System;
+    using Wintellect.PowerCollections;
     using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
 
     class OrderedBagMain
     {
         static void Main()
         {
+            OrderedBag<Product> product = new OrderedBag<Product>();
         }
     }
 }
