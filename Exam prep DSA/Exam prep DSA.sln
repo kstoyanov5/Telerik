@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Words", "6.Words\6.Words.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemTypeStrings.Hittites", "ProblemTypeStrings.Hittites\ProblemTypeStrings.Hittites.csproj", "{0B775277-0C3C-4244-A055-DC96ED922B3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemTypeStrings.Matches", "ProblemTypeStrings.Matches\ProblemTypeStrings.Matches.csproj", "{CDD6A074-E32C-4165-902D-2442EDBB4607}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0B775277-0C3C-4244-A055-DC96ED922B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B775277-0C3C-4244-A055-DC96ED922B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B775277-0C3C-4244-A055-DC96ED922B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD6A074-E32C-4165-902D-2442EDBB4607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD6A074-E32C-4165-902D-2442EDBB4607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD6A074-E32C-4165-902D-2442EDBB4607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD6A074-E32C-4165-902D-2442EDBB4607}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
