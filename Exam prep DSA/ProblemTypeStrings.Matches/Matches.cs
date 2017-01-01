@@ -9,13 +9,14 @@
             var string1 = Console.ReadLine();
             var string2 = Console.ReadLine();
 
-            int output = LongestCommonSubstringWithLessStorage(string1, string2);
+            int output = LongestCommonSubstring(string1, string2);
             Console.WriteLine(output);
         }
 
+        /* Runs in O(n*m) time, storage is O(n*m) */
         public static int LongestCommonSubstring(string str1, string str2)
         {
-            if (String.IsNullOrEmpty(str1) || String.IsNullOrEmpty(str2))
+            if (string.IsNullOrEmpty(str1) || string.IsNullOrEmpty(str2))
                 return 0;
 
             int[,] num = new int[str1.Length, str2.Length];
@@ -44,44 +45,49 @@
             return maxlen;
         }
 
-        public static int LongestCommonSubstringWithLessStorage(string s, string t)
+        /* Runs in O(n*m) time, storage is O(n) */
+        public static int LongestCommonSubstringWithLessStorage(string str1, string str2)
         {
-            int m = s.Length;
-            int n = t.Length;
+            if (string.IsNullOrEmpty(str1) || string.IsNullOrEmpty(str2))
+                return 0;
+
+            int m = str1.Length;
+            int n = str2.Length; 
+            int[] arr1 = new int[n];
+            int[] arr2 = new int[n];
+
             int cost = 0;
             int maxLength = 0;
-            int[] p = new int[n];
-            int[] d = new int[n];
 
             for (int i = 0; i < m; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
-                    if (s[i] != t[j])
+                    if (str1[i] != str2[j])
                     {
                         cost = 0;
                     }
                     else
                     {
-                        if (i==0 || j==0)
+                        if (i == 0 || j == 0)
                         {
                             cost = 1;
                         }
                         else
                         {
-                            cost = p[j - 1] + 1;
+                            cost = arr1[j - 1] + 1;
                         }
                     }
-                    d[j] = cost;
+                    arr2[j] = cost;
 
                     if (cost > maxLength)
                     {
                         maxLength = cost;
                     }
                 }
-                int[] swap = p;
-                p = d;
-                d = swap;
+                int[] swap = arr1;
+                arr1 = arr2;
+                arr2 = swap;
             }
             return maxLength;
         }
