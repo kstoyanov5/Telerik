@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemTypeStrings.Repeatin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemTypeDP.BadCat", "ProblemTypeDP.BadCat\ProblemTypeDP.BadCat.csproj", "{EB438987-84FF-4C75-8928-E25176C5FFB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemTypeGraphs.Diameter", "ProblemTypeGraphs.Diameter\ProblemTypeGraphs.Diameter.csproj", "{F9BD1262-CEEB-438A-885B-408010CA6D95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{EB438987-84FF-4C75-8928-E25176C5FFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB438987-84FF-4C75-8928-E25176C5FFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB438987-84FF-4C75-8928-E25176C5FFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BD1262-CEEB-438A-885B-408010CA6D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BD1262-CEEB-438A-885B-408010CA6D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BD1262-CEEB-438A-885B-408010CA6D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BD1262-CEEB-438A-885B-408010CA6D95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
