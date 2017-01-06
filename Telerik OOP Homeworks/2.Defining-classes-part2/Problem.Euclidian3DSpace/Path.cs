@@ -19,6 +19,5 @@ namespace Problem.Euclidian3DSpace
         {
             this.points.Add(point);
         }
-
     }
 }
