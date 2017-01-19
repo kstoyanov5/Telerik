@@ -1,5 +1,5 @@
 function solve(args) {
-
+    console.log("Test");
 }
 
 solve([
